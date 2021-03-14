@@ -22,7 +22,7 @@ import {EffectsModule} from '@ngrx/effects';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import {metaReducers, reducers} from './reducers';
 import {AuthGuard} from './auth/auth.guard';
-import {EntityDataModule} from '@ngrx/data';
+import { EntityDataModule } from '@ngrx/data';
 
 
 const routes: Routes = [
